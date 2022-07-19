@@ -32,9 +32,9 @@ def height(root, ans):
 def diameter(root):
     if (root == None):
         return 0
-    ans = [-999999999999]  # This will store
+    ans = [float('-inf')]  # This will store
     # the final answer
-    height_of_tree = height(root, ans)
+    height(root, ans)
     return ans[0]
 
 
