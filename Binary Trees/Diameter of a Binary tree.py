@@ -9,7 +9,7 @@ class newNode:
 
 # Function to find height of a tree
 def height(root, ans):
-    if (root == None):
+    if root is None:
         return 0
 
     left_height = height(root.left, ans)
@@ -30,7 +30,7 @@ def height(root, ans):
 # Computes the diameter of binary
 # tree with given root.
 def diameter(root):
-    if (root == None):
+    if root is None:
         return 0
     ans = [float('-inf')]  # This will store
     # the final answer

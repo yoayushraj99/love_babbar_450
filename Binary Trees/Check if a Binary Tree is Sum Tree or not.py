@@ -1,5 +1,4 @@
 # Difficulty - Medium
-from typing import *
 
 
 class Solution:

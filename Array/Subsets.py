@@ -25,4 +25,3 @@ class Solution:
         ans = []
         self.subsetsUtil(nums, [], 0, ans)
         return ans
-
