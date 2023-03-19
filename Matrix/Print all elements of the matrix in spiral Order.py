@@ -3,8 +3,9 @@
 
 from typing import *
 
+
 class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+    def spiral_order(self, matrix: List[List[int]]) -> List[int]:
         res = []
         if not matrix:
             return res
