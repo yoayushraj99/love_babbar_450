@@ -1,5 +1,6 @@
 from typing import *
 
+
 # code
 class Node:
     def __init__(self, data):
@@ -7,11 +8,13 @@ class Node:
         self.right = None
         self.data = data
 
+
 def inOrder(root):
     if root is not None:
         inOrder(root.left)
         print(root.data, end=' ')
         inOrder(root.right)
+
 
 class Solution:
     def mirrorTree(self, root):

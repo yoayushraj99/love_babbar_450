@@ -1,5 +1,6 @@
 from typing import *
 
+
 class Solution:
     def postOrder(self, node):
         if node is None:
